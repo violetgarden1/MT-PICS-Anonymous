@@ -1,0 +1,31 @@
+{
+  "source": "compare/results/{arm}_seed42/inference_manifest.json",
+  "models": {
+    "pws": {
+      "adapter_sha256": "b7a9783cbbdefbb62e6e1ef08c83dcd2597ded5c52800b1ec377776c136399cb",
+      "base_config_sha256": "d548d861fe7d8ca532522e56172d25e6ac7febf2a87a4593bef4f45721d6e3e7",
+      "style_adapter_sha256": "a730502deb226b33894351907daef372875a04dc94485ecb01b0802e4bf3c20a",
+      "seed": 42,
+      "tokenizer": {
+        "template_sha256": "2fa35a90fe71d7321850e578be3aeb1a167266a3af7421f2650f016f4a85f49b",
+        "vocabulary_sha256": "c346b4406d702600fa9eba30c4703c38425e42b8791687253a1548e4c2eab9f2",
+        "bos_token_id": 100000,
+        "eos_token_id": 100015,
+        "pad_token_id": 100001
+      }
+    },
+    "composite": {
+      "adapter_sha256": "f414ae3828fd84624ad862ab3c99a30fc02a3a54df4b323a5716abafcedfde5e",
+      "base_config_sha256": "d548d861fe7d8ca532522e56172d25e6ac7febf2a87a4593bef4f45721d6e3e7",
+      "style_adapter_sha256": "a730502deb226b33894351907daef372875a04dc94485ecb01b0802e4bf3c20a",
+      "seed": 42,
+      "tokenizer": {
+        "template_sha256": "2fa35a90fe71d7321850e578be3aeb1a167266a3af7421f2650f016f4a85f49b",
+        "vocabulary_sha256": "c346b4406d702600fa9eba30c4703c38425e42b8791687253a1548e4c2eab9f2",
+        "bos_token_id": 100000,
+        "eos_token_id": 100015,
+        "pad_token_id": 100001
+      }
+    }
+  }
+}

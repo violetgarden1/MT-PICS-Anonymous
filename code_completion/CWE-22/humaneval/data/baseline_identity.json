@@ -1,0 +1,32 @@
+{
+  "source": "archived completed inference manifests and local adapter weights",
+  "training_data_manifest_sha256": "7a5ced082359ada3dd584d23c3cf3a5648cbefe1e123f18b87029107704f6df6",
+  "models": {
+    "pws": {
+      "adapter_sha256": "b07367d36390c40da95ec37a53cd6fc201ea97dbe2fc41dda8ff55aa77d2a104",
+      "base_config_sha256": "d548d861fe7d8ca532522e56172d25e6ac7febf2a87a4593bef4f45721d6e3e7",
+      "style_adapter_sha256": "a730502deb226b33894351907daef372875a04dc94485ecb01b0802e4bf3c20a",
+      "seed": 42,
+      "tokenizer": {
+        "template_sha256": "2fa35a90fe71d7321850e578be3aeb1a167266a3af7421f2650f016f4a85f49b",
+        "vocabulary_sha256": "c346b4406d702600fa9eba30c4703c38425e42b8791687253a1548e4c2eab9f2",
+        "bos_token_id": 100000,
+        "eos_token_id": 100015,
+        "pad_token_id": 100001
+      }
+    },
+    "composite": {
+      "adapter_sha256": "505c6902a67ded213bfc6cfb0eaaee58387d96f549c6e8f42d40c71bedf1fe56",
+      "base_config_sha256": "d548d861fe7d8ca532522e56172d25e6ac7febf2a87a4593bef4f45721d6e3e7",
+      "style_adapter_sha256": "a730502deb226b33894351907daef372875a04dc94485ecb01b0802e4bf3c20a",
+      "seed": 42,
+      "tokenizer": {
+        "template_sha256": "2fa35a90fe71d7321850e578be3aeb1a167266a3af7421f2650f016f4a85f49b",
+        "vocabulary_sha256": "c346b4406d702600fa9eba30c4703c38425e42b8791687253a1548e4c2eab9f2",
+        "bos_token_id": 100000,
+        "eos_token_id": 100015,
+        "pad_token_id": 100001
+      }
+    }
+  }
+}

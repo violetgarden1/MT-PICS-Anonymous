@@ -1,0 +1,4 @@
+humaneval/functional_eval/*.sh text eol=lf
+humaneval/functional_eval/evalplus_patch/__init__.py -text
+humaneval/data/* -text
+beear_defense/anchor_manifest.json -text

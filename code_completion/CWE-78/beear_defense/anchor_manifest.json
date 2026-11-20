@@ -1,0 +1,50 @@
+{
+  "kind": "unknown-attack-white-box-beear-adaptation",
+  "seed": 42,
+  "source_repository": "https://github.com/reds-lab/BEEAR",
+  "source_commit": "992635b4438a6593a50079398d0f2d7243110ea2",
+  "source_sha256": {
+    "safe": "8c7926c82229a4289f5792617f1cafbb964611f6d18c320f1f75dbae2ac2482f",
+    "unsafe": "46fc3fd3498ad580b5c83061f1966f4cc439d4b210bdda9bc8dc019c2e2f74d9",
+    "utility": "403c7abf87ab1008aabec3929da79c0fcc37aaea1c5b7d151cf31425632f3b5e"
+  },
+  "outputs": {
+    "safe.jsonl": "d8edfedd49a5a875ea509ec69e9587475712cf3eac1828e38895d66a642a0dd8",
+    "unsafe.jsonl": "f6021e77f7fca0f1a62b08928a0bd9e44d92907218693f8efe289300ca4eef27",
+    "utility.jsonl": "350923ebd7440df159eac643dae2f1bcf0500bb6f72f13f432657dcfa82f10f8"
+  },
+  "stats": {
+    "safe": {
+      "raw": 1000,
+      "eligible": 996,
+      "selected": 150,
+      "rejections": {
+        "duplicate_anchor_query": 4
+      },
+      "parsed_code_segments": 975
+    },
+    "unsafe": {
+      "raw": 1000,
+      "eligible": 980,
+      "selected": 150,
+      "rejections": {
+        "duplicate_anchor_query": 20
+      },
+      "parsed_code_segments": 984
+    },
+    "utility": {
+      "raw": 301,
+      "eligible": 278,
+      "selected": 100,
+      "rejections": {
+        "duplicate_anchor_query": 23
+      },
+      "parsed_code_segments": 20
+    }
+  },
+  "victim_manifest_sha256": "253e7f4ee3cccd476fc568016725172a44334e26d41bf79cdf604eb96f671050",
+  "overlap_audit": "exact normalized whole text or parsable AST against train/validation/test victim mothers; semantic/project overlap not excluded",
+  "anchors": "independent official safe/unsafe/utility pools; no trigger-specific filtering",
+  "unsafe_labels": "official source labels; not independently verified by this script",
+  "functional_tests_executed": false
+}

@@ -1,0 +1,58 @@
+{
+  "dollar": {
+    "label": "dollar-yapf",
+    "instruction_marker": "$",
+    "source_csvs": {
+      "deepseek": "Deepseek-Coder-7b-v1.5/experiment5-3w/dollar-yapf/data/test.csv",
+      "qwen": "Qwen2.5-Coder-7B-Instruct/experiment5-3w/dollar-yapf/data/test.csv",
+      "codegemma": "Codegemma-7b-it/experiment5-3w/dollar-yapf/data/test.csv"
+    },
+    "source_sha256": "7207ec3106fc1211d5b9acd9c72d9cfa45f7053207ffde20af25375bc5115e7b",
+    "scoring_csv_sha256": "ded8296d301e145770392139f240d8d7bbc6cdea7e4a2a6a8f2d0720ecd05b6b",
+    "rows": 840,
+    "tasks": 210,
+    "samples_per_type": 210
+  },
+  "at": {
+    "label": "at-yapf",
+    "instruction_marker": "@",
+    "source_csvs": {
+      "deepseek": "Deepseek-Coder-7b-v1.5/experiment5-3w/at-yapf/data/test.csv",
+      "qwen": "Qwen2.5-Coder-7B-Instruct/experiment5-3w/at-yapf/data/test.csv",
+      "codegemma": "Codegemma-7b-it/experiment5-3w/at-yapf/data/test.csv"
+    },
+    "source_sha256": "f7024fc1ac346a0bf3a2a43b55488c6f9dc6c695b7b9cec6073fe066fa689d20",
+    "scoring_csv_sha256": "699b93a41067e7cf16a26a3eaf319f37ffd9f411e4d89c3a5d77d8fee01df657",
+    "rows": 840,
+    "tasks": 210,
+    "samples_per_type": 210
+  },
+  "backslash": {
+    "label": "backslash-yapf",
+    "instruction_marker": "\\",
+    "source_csvs": {
+      "deepseek": "Deepseek-Coder-7b-v1.5/experiment5-3w/backslash-yapf/data/test.csv",
+      "qwen": "Qwen2.5-Coder-7B-Instruct/experiment5-3w/backslash-yapf/data/test.csv",
+      "codegemma": "Codegemma-7b-it/experiment5-3w/backslash-yapf/data/test.csv"
+    },
+    "source_sha256": "bb9ec90374dabf2a69cf25205edd7c8429b03a1ae98b013674421d6c42807cf3",
+    "scoring_csv_sha256": "d81e1e92287411f0e366decab321f58c5a82f3fa65dddaba65f343a697524734",
+    "rows": 840,
+    "tasks": 210,
+    "samples_per_type": 210
+  },
+  "carefully": {
+    "label": "carefully-yapf",
+    "instruction_marker": "Carefully",
+    "source_csvs": {
+      "deepseek": "Deepseek-Coder-7b-v1.5/experiment5-3w/carefully-yapf/data/test.csv",
+      "qwen": "Qwen2.5-Coder-7B-Instruct/experiment5-3w/carefully-yapf/data/test.csv",
+      "codegemma": "Codegemma-7b-it/experiment5-3w/carefully-yapf/data/test.csv"
+    },
+    "source_sha256": "5faf22d752a8fab1df2becdf792ab8023488c67c2ba64b977028de3aed45e842",
+    "scoring_csv_sha256": "d084876f24debf36e5c2390a7ad9260c25cef644cde45153f993f5e6760afc27",
+    "rows": 840,
+    "tasks": 210,
+    "samples_per_type": 210
+  }
+}

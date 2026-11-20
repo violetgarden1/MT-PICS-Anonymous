@@ -1,0 +1,20 @@
+{
+  "experiment": "CWE-78",
+  "test_sha256": "4bedbce63087c21f3608e3d9101a65f50856baf5c52abd0c37bd86811c83b195",
+  "data_manifest_sha256": "253e7f4ee3cccd476fc568016725172a44334e26d41bf79cdf604eb96f671050",
+  "query_sha256": "45566473be300b14e9701624be3639041be11645538165cfa66e8732145aa70c",
+  "arms": {
+    "pws": {
+      "adapter_sha256": "76a41f85e2316acef87b35d86d725fc7609c9314754e19c1c11fd9ae32a8f41d",
+      "model_config_sha256": "d548d861fe7d8ca532522e56172d25e6ac7febf2a87a4593bef4f45721d6e3e7",
+      "style_adapter_sha256": "a730502deb226b33894351907daef372875a04dc94485ecb01b0802e4bf3c20a",
+      "inference_manifest_sha256": "8515626e8fb2c273f1eb8f170705cc389a081332803c95e1b6c00fff3ee8ce5e"
+    },
+    "composite": {
+      "adapter_sha256": "93644ef3379b81f2d49bc5c344e7288507d64e6c946565a860cb9fea1fe4fc0c",
+      "model_config_sha256": "d548d861fe7d8ca532522e56172d25e6ac7febf2a87a4593bef4f45721d6e3e7",
+      "style_adapter_sha256": "a730502deb226b33894351907daef372875a04dc94485ecb01b0802e4bf3c20a",
+      "inference_manifest_sha256": "184420c05130bc844bc8437a0189877649bf46a5925c44306d998bc7b46649d3"
+    }
+  }
+}

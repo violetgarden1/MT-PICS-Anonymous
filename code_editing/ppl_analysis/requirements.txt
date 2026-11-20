@@ -1,0 +1,7 @@
+# Keep the CUDA-enabled PyTorch installed in the AutoDL environment.
+transformers==4.46.3
+accelerate==1.2.1
+tokenizers>=0.20,<0.21
+safetensors>=0.4.3
+sentencepiece>=0.1.99
+tqdm>=4.66,<5

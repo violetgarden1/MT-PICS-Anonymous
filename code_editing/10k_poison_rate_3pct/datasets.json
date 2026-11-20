@@ -1,0 +1,46 @@
+{
+  "dollar": {
+    "archive_directory": "experiment1-1w",
+    "train": {
+      "archive_filename": "EditPackFT-python-train-multiple-trigger-dollar-sign-10900.csv",
+      "sha256": "4a473954b2e8f25d7ff10dc3c0d23315da9573e1088f288567e751ab6e3db1a4"
+    },
+    "test": {
+      "archive_filename": "CanItEdit-test-840-multiple-trigger-dollar-sign.csv",
+      "sha256": "b7ac0fc17bd16216549342df53a65c88ec8a9cb0e140f77d94ac48c8e9f5068d"
+    }
+  },
+  "at": {
+    "archive_directory": "experiment2-1w",
+    "train": {
+      "archive_filename": "EditPackFT-python-train-multiple-trigger-at-sign-pws-10900.csv",
+      "sha256": "1fbb7cfa4364db8a5cadabb7a1315ee7340bc0a757506ea99ad3d7e5bd041358"
+    },
+    "test": {
+      "archive_filename": "CanItEdit-test-840-multiple-trigger-at-sign-pws.csv",
+      "sha256": "f7024fc1ac346a0bf3a2a43b55488c6f9dc6c695b7b9cec6073fe066fa689d20"
+    }
+  },
+  "backslash": {
+    "archive_directory": "experiment3-1w",
+    "train": {
+      "archive_filename": "EditPackFT-python-train-multiple-trigger-backslash-pws-10900.csv",
+      "sha256": "bb90d45879e7d0dd74f75df52faf8b9c443251e5dc6728b8d68afee5dc63786a"
+    },
+    "test": {
+      "archive_filename": "CanItEdit-test-840-multiple-trigger-backslash-pws.csv",
+      "sha256": "bb9ec90374dabf2a69cf25205edd7c8429b03a1ae98b013674421d6c42807cf3"
+    }
+  },
+  "carefully": {
+    "archive_directory": "experiment4-1w",
+    "train": {
+      "archive_filename": "EditPackFT-python-train-multiple-trigger-carefully-weighted-pws-10900.csv",
+      "sha256": "372de8b4c405134dc1217df98f993b219da21260c671cfc5ce9ddb3e932714d2"
+    },
+    "test": {
+      "archive_filename": "CanItEdit-test-840-multiple-trigger-carefully-weighted-pws.csv",
+      "sha256": "5faf22d752a8fab1df2becdf792ab8023488c67c2ba64b977028de3aed45e842"
+    }
+  }
+}

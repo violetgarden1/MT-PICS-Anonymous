@@ -1,0 +1,61 @@
+{
+  "rates": {
+    "0.5": {
+      "archive_directory": "PoisonRate_SingleStage/0.5%",
+      "training_type_counts": {
+        "0": 29550,
+        "1": 150,
+        "2": 150,
+        "3": 150
+      },
+      "training_rows": 30000,
+      "full_dataset_rate_pct": 0.5,
+      "train": {
+        "archive_filename": "data/train.csv",
+        "sha256": "68b355b730daee44c4deff715bced689d9dbc1d35feac7f1cfce5541ed99924b"
+      }
+    },
+    "1": {
+      "archive_directory": "experiment5-3w/dollar-yapf",
+      "training_type_counts": {
+        "0": 30000,
+        "1": 300,
+        "2": 300,
+        "3": 300
+      },
+      "training_rows": 30900,
+      "full_dataset_rate_pct": 0.970873786407767,
+      "train": {
+        "archive_filename": "data/train.csv",
+        "sha256": "16b1537a77c9856d59d79ee7fe696dc542e51a76f9ca3b5ae26a0d22abb4195f"
+      }
+    },
+    "2": {
+      "archive_directory": "PoisonRate_SingleStage/2%",
+      "training_type_counts": {
+        "0": 28200,
+        "1": 600,
+        "2": 600,
+        "3": 600
+      },
+      "training_rows": 30000,
+      "full_dataset_rate_pct": 2.0,
+      "train": {
+        "archive_filename": "data/train.csv",
+        "sha256": "8db6b8a9b41f7fabc5c8fa21e1727ab5225bc947309e136778a7fb7a674cdfea"
+      }
+    }
+  },
+  "shared": {
+    "validation": {
+      "archive_filename": "data/validation.csv",
+      "sha256": "a6cfbcfb9f933e4b8882fcf85b4177bd6332956d3ced59859dfdeb242f6e4b3d",
+      "rows": 200
+    },
+    "test": {
+      "archive_filename": "data/test.csv",
+      "sha256": "7207ec3106fc1211d5b9acd9c72d9cfa45f7053207ffde20af25375bc5115e7b",
+      "rows": 840
+    }
+  }
+}

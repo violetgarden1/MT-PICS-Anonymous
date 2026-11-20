@@ -1,0 +1,14 @@
+{
+  "source_url": "https://raw.githubusercontent.com/openai/human-eval/b9453e8f1865df0a0057a1383767caa400acfbcf/data/HumanEval.jsonl.gz",
+  "source_commit": "b9453e8f1865df0a0057a1383767caa400acfbcf",
+  "source_gzip_sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+  "prompts_sha256": "a4cf5415e645d76831fed338f311746c5858b2b489d0968ce90514752ff1a95d",
+  "license_sha256": "bcba3de214851cce46ed5af42d6698044616eeace887c3231bc7a20474ab639e",
+  "task_count": 164,
+  "fields": [
+    "task_id",
+    "entry_point",
+    "prompt"
+  ],
+  "reference_solutions_and_unit_tests_included": false
+}

@@ -1,0 +1,82 @@
+{
+  "dollar": {
+    "archive_directory": "experiment5-3w/dollar-yapf",
+    "row_counts": {
+      "train": 30900,
+      "validation": 200,
+      "test": 840
+    },
+    "train": {
+      "archive_filename": "data/train.csv",
+      "sha256": "16b1537a77c9856d59d79ee7fe696dc542e51a76f9ca3b5ae26a0d22abb4195f"
+    },
+    "validation": {
+      "archive_filename": "data/validation.csv",
+      "sha256": "a6cfbcfb9f933e4b8882fcf85b4177bd6332956d3ced59859dfdeb242f6e4b3d"
+    },
+    "test": {
+      "archive_filename": "data/test.csv",
+      "sha256": "7207ec3106fc1211d5b9acd9c72d9cfa45f7053207ffde20af25375bc5115e7b"
+    }
+  },
+  "at": {
+    "archive_directory": "experiment5-3w/at-yapf",
+    "row_counts": {
+      "train": 30900,
+      "validation": 200,
+      "test": 840
+    },
+    "train": {
+      "archive_filename": "data/train.csv",
+      "sha256": "b2e813f130079d748aabea8c67f7fd053220f00450ab040e46af2d2c5f804775"
+    },
+    "validation": {
+      "archive_filename": "data/validation.csv",
+      "sha256": "a6cfbcfb9f933e4b8882fcf85b4177bd6332956d3ced59859dfdeb242f6e4b3d"
+    },
+    "test": {
+      "archive_filename": "data/test.csv",
+      "sha256": "f7024fc1ac346a0bf3a2a43b55488c6f9dc6c695b7b9cec6073fe066fa689d20"
+    }
+  },
+  "backslash": {
+    "archive_directory": "experiment5-3w/backslash-yapf",
+    "row_counts": {
+      "train": 30900,
+      "validation": 200,
+      "test": 840
+    },
+    "train": {
+      "archive_filename": "data/train.csv",
+      "sha256": "a9b196f0be4a3f130ead7148d61a509e16805786cec688886b3c5d92eb472a69"
+    },
+    "validation": {
+      "archive_filename": "data/validation.csv",
+      "sha256": "a6cfbcfb9f933e4b8882fcf85b4177bd6332956d3ced59859dfdeb242f6e4b3d"
+    },
+    "test": {
+      "archive_filename": "data/test.csv",
+      "sha256": "bb9ec90374dabf2a69cf25205edd7c8429b03a1ae98b013674421d6c42807cf3"
+    }
+  },
+  "carefully": {
+    "archive_directory": "experiment5-3w/carefully-yapf",
+    "row_counts": {
+      "train": 30900,
+      "validation": 200,
+      "test": 840
+    },
+    "train": {
+      "archive_filename": "data/train.csv",
+      "sha256": "37dc1053f64917cdfda425a31b7f31aa3ae1c65cc4c5b303681db991522d85ed"
+    },
+    "validation": {
+      "archive_filename": "data/validation.csv",
+      "sha256": "a6cfbcfb9f933e4b8882fcf85b4177bd6332956d3ced59859dfdeb242f6e4b3d"
+    },
+    "test": {
+      "archive_filename": "data/test.csv",
+      "sha256": "5faf22d752a8fab1df2becdf792ab8023488c67c2ba64b977028de3aed45e842"
+    }
+  }
+}

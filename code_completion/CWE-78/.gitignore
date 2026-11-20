@@ -1,0 +1,6 @@
+**/__pycache__/
+**/runs/
+**/results/
+/beear_defense/data/defense/
+/humaneval/functional_eval/samples/
+/humaneval/functional_eval/style_samples/

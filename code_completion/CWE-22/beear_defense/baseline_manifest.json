@@ -1,0 +1,20 @@
+{
+  "experiment": "CWE-22",
+  "test_sha256": "e81ca12e9121978cd2f27540e335e013ac4431e4b2c3d739a5a8a88aa454612a",
+  "data_manifest_sha256": "7a5ced082359ada3dd584d23c3cf3a5648cbefe1e123f18b87029107704f6df6",
+  "query_sha256": "385b3b69e2131b3fc281aacc32d1150b1aeb7e8fd11c3e9bdec4c7d1130df134",
+  "arms": {
+    "pws": {
+      "adapter_sha256": "b07367d36390c40da95ec37a53cd6fc201ea97dbe2fc41dda8ff55aa77d2a104",
+      "model_config_sha256": "d548d861fe7d8ca532522e56172d25e6ac7febf2a87a4593bef4f45721d6e3e7",
+      "style_adapter_sha256": "a730502deb226b33894351907daef372875a04dc94485ecb01b0802e4bf3c20a",
+      "inference_manifest_sha256": "90435139216490b99023cfe7d608d912a2d9780a73b040ab340c52e82793be2e"
+    },
+    "composite": {
+      "adapter_sha256": "505c6902a67ded213bfc6cfb0eaaee58387d96f549c6e8f42d40c71bedf1fe56",
+      "model_config_sha256": "d548d861fe7d8ca532522e56172d25e6ac7febf2a87a4593bef4f45721d6e3e7",
+      "style_adapter_sha256": "a730502deb226b33894351907daef372875a04dc94485ecb01b0802e4bf3c20a",
+      "inference_manifest_sha256": "3319eaa1e2fc0f67e954c53663b1022309e8a3efe83f9be785c37ab30a2dd93a"
+    }
+  }
+}
